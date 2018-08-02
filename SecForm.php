@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'TokenCSRF.php';
+include 'TokenClassCSRF.php';
 
 $csrf = new csrf();
 
